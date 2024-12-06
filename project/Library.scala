@@ -6,7 +6,7 @@ object Library {
 
   object Dependency {
 
-    val scalaTest     = "org.scalatest" %% "scalatest"       % "3.2.15"
+    val scalaTest     = "org.scalatest" %% "scalatest"       % "3.2.19"
     val novoCodeJunit = "com.novocode"   % "junit-interface" % "0.11"
   }
 
