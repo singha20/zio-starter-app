@@ -98,7 +98,7 @@ lazy val root = (project in file("."))
     libraryDependencies ++= Seq(
       "dev.zio"               %% "zio"          % zioVersion,
       "dev.zio"               %% "zio-streams"  % zioVersion,
-      "dev.zio"               %% "zio-config"   % "3.0.7",
+      "dev.zio"               %% "zio-config"   % "4.0.2",
       "com.github.pureconfig" %% "pureconfig"   % "0.17.3",
       "org.hdrhistogram"       % "HdrHistogram" % "2.1.12",
       "dev.zio"               %% "zio-test"     % zioVersion % Test
