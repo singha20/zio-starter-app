@@ -99,7 +99,7 @@ lazy val root = (project in file("."))
       "dev.zio"               %% "zio"          % zioVersion,
       "dev.zio"               %% "zio-streams"  % zioVersion,
       "dev.zio"               %% "zio-config"   % "3.0.7",
-      "com.github.pureconfig" %% "pureconfig"   % "0.17.3",
+      "com.github.pureconfig" %% "pureconfig"   % "0.17.8",
       "org.hdrhistogram"       % "HdrHistogram" % "2.1.12",
       "dev.zio"               %% "zio-test"     % zioVersion % Test
     ) ++ Library.testDependencies
