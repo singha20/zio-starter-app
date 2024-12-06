@@ -2,7 +2,7 @@ ThisBuild / version := "0.1.0-SNAPSHOT"
 
 ThisBuild / scalaVersion := "2.12.10"
 
-val zioVersion = "2.0.13"
+val zioVersion = "2.0.22"
 val zioLogging = "2.1.1"
 
 val logging = Seq(
