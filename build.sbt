@@ -58,7 +58,7 @@ lazy val delivery = (project in file("./modules/delivery"))
       "dev.zio"         %% "zio-streams"  % zioVersion,
       "dev.zio"         %% "zio-http"     % "0.0.5",
       "dev.zio"         %% "zio-json"     % "0.4.2",
-      "org.hdrhistogram" % "HdrHistogram" % "2.1.12",
+      "org.hdrhistogram" % "HdrHistogram" % "2.2.2",
       "dev.zio"         %% "zio-test"     % zioVersion % Test
     ) ++ Library.testDependencies
   )
@@ -72,7 +72,7 @@ lazy val ruleEngine = (project in file("./modules/ruleEngine"))
       "dev.zio"         %% "zio-streams"  % zioVersion,
       "dev.zio"         %% "zio-http"     % "0.0.5",
       "dev.zio"         %% "zio-json"     % "0.4.2",
-      "org.hdrhistogram" % "HdrHistogram" % "2.1.12",
+      "org.hdrhistogram" % "HdrHistogram" % "2.2.2",
       "dev.zio"         %% "zio-test"     % zioVersion % Test
     ) ++ Library.testDependencies
   )
@@ -86,7 +86,7 @@ lazy val apiClient = (project in file("./modules/apiClient"))
       "dev.zio"         %% "zio-streams"  % zioVersion,
       "dev.zio"         %% "zio-http"     % "0.0.5",
       "dev.zio"         %% "zio-json"     % "0.4.2",
-      "org.hdrhistogram" % "HdrHistogram" % "2.1.12",
+      "org.hdrhistogram" % "HdrHistogram" % "2.2.2",
       "dev.zio"         %% "zio-test"     % zioVersion % Test
     ) ++ Library.testDependencies
   )
@@ -100,7 +100,7 @@ lazy val root = (project in file("."))
       "dev.zio"               %% "zio-streams"  % zioVersion,
       "dev.zio"               %% "zio-config"   % "3.0.7",
       "com.github.pureconfig" %% "pureconfig"   % "0.17.3",
-      "org.hdrhistogram"       % "HdrHistogram" % "2.1.12",
+      "org.hdrhistogram"       % "HdrHistogram" % "2.2.2",
       "dev.zio"               %% "zio-test"     % zioVersion % Test
     ) ++ Library.testDependencies
   )
